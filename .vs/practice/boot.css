@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navb{
+    color: aliceblue;
+}
+#sr{
+border-radius: 15px;
+height: 100%;
+width: 100%;
+align-items: center;
+margin-top: 5px;
+}
+#ic{
+    margin-top: 5px;
+    color: aliceblue;
+}
+#bg{
+    display: flex;
+    background-image: url(img/P1013498.JPG);
+    height: 100vh;
+    width: 100hw;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+    
+}

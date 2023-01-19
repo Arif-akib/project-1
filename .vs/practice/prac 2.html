@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #navli{
+            display:inline-block;
+        }
+        .navli a{
+            display:inline-block;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 5px;
+            padding: 20px;
+            color: rgb(19, 59, 59);
+        } 
+       /* .navli a:hover{
+            display:inline-block;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 5px;
+            padding: 5px 20px;
+            background-color: blanchedalmond;
+            color: rgb(19, 59, 59);
+            border-radius: 25px;
+        }*/
+    
+        .navli a:hover{
+            display:block;
+            color: brown;
+        }
+        .bg{
+            background-color: aquamarine;
+            height: 340px;
+        }
+        .bgp{
+            display:block;
+            text-align:center;
+        }
+        .bgp a{
+            text-decoration: none;
+        }
+        .d {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+.dr:hover .d {
+  display: block;
+}
+    </style>
+</head>
+<body>  
+    <div style="display:flex; background-color: aquamarine; height: 65px;">
+        <div style="">
+        <a href="" "><img src="img/WhatsApp Image 2022-10-31 at 11.16.21 PM.jpeg" style="height:40px; width: 40px ;margin-top: 10px;text-align: left;margin-left: 10px;"></a>
+        </div>
+        <div style="display:flex;width: 100%; justify-content: center; height: 40px;">  
+            <ul style="" id="">
+                <li class="navli" id="navli">
+                     <a href="">Home</a>
+                </li>
+                <li class="navli"id="navli">
+                    <a href="">About</a>
+                </li>
+                <li id="navli"class="navli">
+                    <a href="">Protfolio</a>
+                </li>
+                <li id="navli"class="navli">
+                    <div class="dr">
+                    <a  href="">dropdown</a>
+                    <div class="d">
+                        <ul>
+                            <li><a href="">i</a></li>
+                            <li><a href="">i</a></li>
+                            <li><a href="">i</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </li>
+                <li id="navli"class="navli">
+                    <a href="">Service</a>
+                </li>
+                <li id="navli"class="navli">
+                    <a href="">Resume</a>
+                </li>
+                <li id="navli"class="navli">
+                    <a href="">Blog</a>
+                </li>
+                <li id="navli"class="navli">
+                    <a href="">Contact</a>
+                </li>
+                    
+                </ul>
+        
+        </div>
+    </div>
+    <div class="bg">
+        <h1 class="bgp" style="padding-top: 90px;">I'm James Anderson</h1>
+        <h1 class="bgp"> A Front-end Developer</h1>
+        <h3 class="bgp">A new work from <a class="" href="">Colorlib</a></h3>
+    </div>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

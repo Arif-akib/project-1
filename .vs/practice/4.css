@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.o{
+display: flex;
+flex-direction: column;
+}
+.m{
+  display: flex;
+}
+.n{
+  display: flex;
+}

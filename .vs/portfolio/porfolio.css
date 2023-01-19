@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid red;
+}
+.nav-container{
+    display: flex;
+}
+.logo img{
+height: 30px;
+width: 30px;
+border-radius: 50px;
+}
+.menu-container{
+    justify-items: right;
+}
+.items{
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.item{
+    list-style: none;
+    margin-right: 20px;
+}

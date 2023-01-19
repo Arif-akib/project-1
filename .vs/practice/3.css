@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    background-color: black;
+    padding: 20px 22px;
+}
+li{
+   float: left;
+}
+li a{
+    color:blue;
+    background-color: aqua;
+    font-size: 17px;
+    overflow: hidden;
+    vertical-align: middle;
+    padding: 14px 16px;  
+}
+li.acc{
+    float: right;
+}
+
+
